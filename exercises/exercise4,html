@@ -6,6 +6,9 @@
     <title>exercise3</title>
 </head>
 <body>
-    
+    <figure>
+        <img src="/images/ResizedPublicDomainImage.png" alt="Board game called Monopoly">
+        <figcaption>Image: "game design workshop / 2012" by <a href="https://www.flickr.com/photos/3angle/7312283866/in/photolist-c9aneL-QyZzNc-LCZ3vs-Qwibyh-2kp6jnR-aZXx8D-SJPsBX-dPnKVb-aZXuNv-aZXtsZ-Q9etF4-DnDVPH-Jgo1vn-2gYRQjp-9oBpus-2qFX8qA-ZBTt4J-QhHaFM-WbHoF2-rCvpM8-2g6HhBH-2pKbCSv-DUotFQ-2oBFhY2-SyuRoX-2nkpLfR-MfyZNS-QtCKb5-ZBToow-BxDzUH-X2NH7N-rcVi6K-iKcRwJ-2nawJW6-7Ugm6h-5BMjwK-QMxKKQ-s2C1dZ-YiPmin-24cBkrV-2p5HigZ-2mT5CsK-2cL4eic-NqZpo9-2pxjk5F-kY2YV-5RX3SP-Nrpjnc-JqfE5H-86kxAa">Ting-An,HO 何庭安</a> via <a href="https://www.flickr.com/">flickr</a></figcaption>
+    </figure>
 </body>
 </html>
