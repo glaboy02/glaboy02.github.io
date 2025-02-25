@@ -1,0 +1,9 @@
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: brown;
+}
+
+p#intro {
+    background-color: aqua;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
