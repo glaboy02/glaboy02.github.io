@@ -1,0 +1,51 @@
+main {
+    font-family: "Space Grotesk", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+h1 {
+    font-size: xx-large;
+    margin: 1.5rem;
+    text-transform: uppercase;
+    line-height: 1.5rem;
+}
+
+img {
+    max-width: 100%;
+}
+body {
+    background-color: #b8b8e8;
+    color: #3d5342;
+    
+}
+
+hr {
+    border: 2px #3d5342 solid;
+}
+
+p {
+    margin: 1.5rem;
+}
+
+h2 {
+    padding: 0.5rem;
+}
+
+a:link {
+    color:blueviolet;
+    text-decoration: none;
+}
+
+a:visited {
+color: antiquewhite;
+}
+
+a:hover {
+    color: green;
+    text-decoration: underline;
+}
+a:active {
+    color: brown;
+}
