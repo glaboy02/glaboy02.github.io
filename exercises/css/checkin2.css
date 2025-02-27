@@ -19,6 +19,7 @@ body {
     background-color: #b8b8e8;
     color: #3d5342;
     
+    
 }
 
 hr {
@@ -27,6 +28,7 @@ hr {
 
 p {
     margin: 1.5rem;
+    font-size: 20px;
 }
 
 h2 {
