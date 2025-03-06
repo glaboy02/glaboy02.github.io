@@ -1,6 +1,10 @@
 body {
     background-color: #fde5e5;
     margin: 0;
+    font-family: "Big Shoulders", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
 }
 
 header {
@@ -10,7 +14,7 @@ header {
 }
 
 main {
-    border: 3px red solid;
+    /* border: 3px red solid; */
 }
 
 article {
@@ -30,6 +34,8 @@ footer {
 }
 h1 {
     text-align: center;
+    margin-top: 4.5rem;
+    margin-bottom: 2.5rem;
 }
 
 a:link {
@@ -70,8 +76,19 @@ header a:active {
 }
 
 h2.logo {
+    
     background-color: purple;
-    text-align: left;
+    text-align: center;
     width: 6rem;
     height: 6rem;
+    border-radius: 50%;
+    display: grid;
+    align-items: center;
+}
+
+.wrapper {
+    border: px black solid;
+    margin: 0 auto;
+    max-width: 40rem;
+
 }
