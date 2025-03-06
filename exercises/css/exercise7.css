@@ -87,7 +87,7 @@ h2.logo {
 }
 
 .wrapper {
-    border: px black solid;
+    border: 2px black solid;
     margin: 0 auto;
     max-width: 40rem;
 
