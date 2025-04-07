@@ -1,13 +1,13 @@
 .wrapper {
     border: 3px solid black;
     display: grid;
-    grid-template-rows: 10% 45% 45%;
+    grid-template-rows: 10vh 45vh 45vh;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-    min-height: 100vh;
+    overflow: hidden;
 }
 
 header {
-    background-color: black;
+    background-color: rgb(2, 2, 107);
     color: white;
     grid-row-start: 1;
     grid-row-end: 2;
@@ -19,7 +19,8 @@ header {
 }
 
 .row2left {
-    background-color: white;
+    background-color: black;
+    color: white;
     grid-row-start: 2;
     grid-row-end: 3;
     grid-column-start: 1;
@@ -35,14 +36,22 @@ header {
     grid-column-start: 4;
     grid-column-end: 8;
 }
-img {
+.row2right img {
+    object-fit: cover;
     width: 100%;
     height: 100%;
+    
+}
+
+.row3middle img {
     object-fit: cover;
+    width: 100%;
+    height: 100%;
+    
 }
 
 .row3left {
-    background-color: purple;
+    background-color: aqua;
     grid-row-start: 3;
     grid-row-end: 4;
     grid-column-start: 1;
@@ -58,24 +67,19 @@ img {
 }
 
 .row3right {
-    background-color: blue;
+    background-color: aqua;
     grid-row-start: 3;
     grid-row-end: 4;
     grid-column-start: 5;
     grid-column-end: 8;
-    
-    
+    padding: 0.5rem;
+    overflow: auto;
 }
 
 
 footer {
     background-color: lightgrey;
-    /* grid-row-start: 3;
-    grid-row-end: 4;
-    grid-column-start: 1;
-    grid-column-end: 4; */
 
-    /* text-align: center; */
     display: grid;
     align-content: center;
     justify-content: center;
@@ -85,22 +89,27 @@ footer {
 body {
     background-color: lightgrey;
     margin: 0;
+    height: 100vh;
 }
-p{
-    float: right;
-}
+
 .headshot {
+    width: 100%;
+    height: 100%;
+    /* border: 5px solid black; */
+
+    
+}
+
+.wrap {
     float: right;
     /* margin: 5px; */
-    object-fit: fill;
+    /* border: 5px solid black; */
+    padding-right: 10px;
     width: 25%;
-    height: 25%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    /* width: 50% */
+    height: auto;
 }
-.wrap {
-    float: right; 
-    margin: 5px;
-}
+
+/* .row3right p {
+    border: 5px solid black;
+    overflow: scroll;
+} */
