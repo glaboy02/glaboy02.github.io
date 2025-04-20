@@ -1,36 +1,82 @@
-.navBar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem 2rem;
-    background-color: #333;
+/* Nav Bar */
+
+body {
+    margin: 0;
+
+
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: min-content auto min-content;
+
+}
+
+header {
+    margin: 0;
+}
+
+footer{
+    background-color: black;
     color: white;
-    width: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 60px;
-    box-sizing: border-box;
-    max-width: 100vw;
-    overflow: hidden;
-}
-.navList {
-    list-style: none;
+    text-align: center;
 }
 
-.navItems {
-    display: inline;
-    border: 1px solid white;
-    border-radius: 30%;
-    padding: 10px;
+nav li {
+    list-style-type: none;
+    background-color: black;
+    margin: 1rem;
 }
 
-
-a {
+nav a {
     text-decoration: none;
-    color: white;
+    color: lightgray;
+    padding: 25px;
 }
 
-main {
-    display: flex;
+nav a:hover {
+    color: palegoldenrod;
+    background-color: black;
 }
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    padding: 25px;
+    margin: 0;
+    flex-wrap: wrap;
+}
+
+
+/* Main Page */
+
+img {
+    max-height: 500px;
+
+}
+
+figure {
+    display: inline-block;
+    position: relative;
+}
+
+figcaption {
+    background-color: lightgray;
+    padding: 5px;
+    position: absolute;
+    bottom: 4px;
+    right: 0;
+}
+
+
+/* About Me */
+
+
+
+/* Exercises */
+
+
+
+/* Portfolio */
+
+
+/* Resume */
