@@ -1,5 +1,5 @@
-/* Nav Bar */
 
+/* Main Structure */
 body {
     margin: 0;
 
@@ -19,6 +19,8 @@ footer{
     color: white;
     text-align: center;
 }
+
+/* Nav Bar */
 
 nav li {
     list-style-type: none;
@@ -47,10 +49,10 @@ nav ul {
 }
 
 
-/* Main Page */
+/* Image Citations */
 
 img {
-    max-height: 500px;
+    max-height: 250px;
 
 }
 
@@ -77,6 +79,11 @@ figcaption {
 
 
 /* Portfolio */
+main .portfolio {
+    display: flex;
+    flex: auto;
+}
+
 
 
 /* Resume */
