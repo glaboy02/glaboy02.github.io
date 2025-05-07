@@ -214,11 +214,13 @@ section#hero-section p {
 
 .col1-aboutme{
     flex: 1;
-    
+    font-size: x-large;
+    padding: 1rem;
 }
 
 .col2-aboutme {
     flex: 1;
+    font-size: x-large;
 }
 
 /* Exercises */
