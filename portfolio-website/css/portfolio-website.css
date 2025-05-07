@@ -31,7 +31,7 @@ footer{
 nav li {
     list-style-type: none;
     margin: 1rem;
-    font-size: larger;
+    font-size: xx-large;
 }
 
 nav a {
@@ -60,6 +60,8 @@ nav ul {
 
 img {
     max-height: 250px;
+    min-height: 175px;
+    min-width: 175px;
 }
 
 figure {
@@ -106,10 +108,15 @@ section#hero-section {
     max-width: 50%;
     color: white;
     font-size: x-large;
+    text-shadow: 5px 5px purple;
 }
 
-.col h1 {
-    font-size: xx-large;
+.col1 h1 {
+    font-size: 75px;
+}
+
+.col1 h5 {
+    font-size: 30px;
 }
 
 .col2 {
@@ -137,60 +144,11 @@ section#hero-section {
 }
 
 section#hero-section p {
-    color: white;
-    background-color: grey;
+    color: black;
+    background-color: white;
     padding: 0.25rem;
-}
-/*
-section#hero-section {
-    background-image:
-        linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-        url("/images/glass-3389935_1280.jpg");
-    background-size: cover;
-    background-position: center;
-    /* width: 100%; */
-    /* padding: 20%;
-    color: white; */
-    /* text-align: center; */
-    /* max-height: 50vh; */
-
-    /* display: flex; */
-
-    /* min-height: fit-content; */
-    
-    /* flex-wrap: wrap; */
-    /* flex-grow: 1;
-    flex-shrink: 1;
-    flex-basis: 100%; */
-    /* width: 100vh;
-} */
-
-/* .col1 { */
-    /* justify-content: center; */
-    /* align-content: center; */
-    /* align-items: center; */
-    /* justify-items: center; */
-    /* font-size: x-large; */
-    /* margin-right: 5rem; */
-    /* flex-grow: 1;
-    flex-shrink: auto;
-    flex-basis: 100%;
-    margin: 0;
-} */
-
-/* .col2 { */
-    /* justify-content: center; */
-    /* align-content: center; */
-    /* align-items: center; */
-    /* justify-items: center; */
-    /* justify-self: center; */
-    /* width: 100%;
-    height: auto;
-    flex-grow: 1;
-    flex-shrink: auto;
-    flex-basis: 100%;
-    margin: 0; */
-/* } */ 
+    font-size: medium;
+} 
 
 .Headshot {
     border-radius: 50%;
@@ -200,13 +158,11 @@ section#hero-section {
     height: auto;
     transition: .5s ease;
     backface-visibility: hidden;
-
+    border: 5px purple solid;
+    
+    /* min-height: 600px;
+    min-width: 600px; */
 }
-
-/* .homeImg {
-    width: 100%;
-    height: auto;
-} */
 
 .homeImg figcaption{
     bottom: 1rem;
@@ -244,7 +200,25 @@ section#hero-section {
 
 /* About Me */
 
+.aboutmeMain {
+    text-align: center;
+    background-color: rgb(198, 196, 196);    
+}
+.aboutmePage {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 75%;
+}
 
+.col1-aboutme{
+    flex: 1;
+    
+}
+
+.col2-aboutme {
+    flex: 1;
+}
 
 /* Exercises */
 
@@ -325,8 +299,22 @@ section#hero-section {
         height: 100vh;
     } */
     
-    .col1 {
-        font-size: medium;
+    .col1 h1{
+        font-size: 50px;
+    }
+
+    .col1 h5 {
+        font-size: 20px;
+
+    }
+
+    nav li {
+        font-size: large;
+    }
+
+    .headshot {
+        min-height: 175px;
+        min-width: 175px;
     }
 }
 
@@ -338,5 +326,17 @@ section#hero-section {
         bottom: 2rem;
     }
 
-    
+    .col1 h1 {
+        font-size: 100px;
+    }
+
+    .col1 h5 {
+        font-size: 40px;
+    }
+
+    .headshot {
+        min-height: 600px;
+        min-width: 600px;
+    }
+
 }
