@@ -8,6 +8,7 @@ body {
     grid-template-rows: min-content 1fr min-content;
     /* display: flex;
     flex-wrap: wrap; */
+    background-color: rgb(198, 196, 196);
 
 }
 
