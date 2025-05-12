@@ -318,6 +318,7 @@ section#hero-section p {
 .resumeMain address {
     font-size: 1.25rem;
     text-align: center;
+    padding-bottom: 1rem;
 }
 
 .resumeMain li {
