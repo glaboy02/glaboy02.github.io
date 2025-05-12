@@ -1,4 +1,3 @@
-
 /* Main Structure */
 body {
     margin: 0;
@@ -164,39 +163,29 @@ section#hero-section p {
     min-width: 600px; */
 }
 
-.homeImg figcaption{
-    bottom: 1rem;
-}
-
-.middle {
+.homeImg figcaption {
+    /* bottom: 1rem; */
     transition: .5s ease;
     opacity: 0;
     position: absolute;
-    top: 85%;
-    left: 65%;
+    top: 55%;
+    left: 55%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     text-align: center;
-
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    /* padding-right: 4.5rem; */
 }
 
 .homeImg:hover .Headshot {
     opacity: 0.3;
 }
 
-.homeImg:hover .middle {
+.homeImg:hover figcaption {
     opacity: 1;
 }
-
-.text {
-    background-color: white;
-    color: black;
-    font-size: 16px;
-
-    padding-right: 4.5rem;
-
-}
-
 
 /* About Me */
 
