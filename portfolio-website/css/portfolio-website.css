@@ -24,7 +24,6 @@ footer{
     background-color: rgba(0, 0, 0, 0.854);
     color: white;
     text-align: center;
-    
 }
 
 /* Nav Bar */
@@ -225,6 +224,29 @@ section#hero-section p {
 
 /* Exercises */
 
+.exercisesMain {
+    justify-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.boxs {
+    width: 75%;
+    border: 5px black solid;
+    border-radius: 10%;
+    padding: 0.5rem 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.exercisesMain h1 {
+    color: blueviolet;
+}
+
+.exercisesMain li {
+    color: rgb(66, 1, 128);
+    font-size: 1.25rem;
+}
+
 
 
 /* Portfolio */
@@ -271,15 +293,50 @@ section#hero-section p {
 }
 
 
-
-
-
-
 /* Resume */
 
+.resumeMain {
+    padding-top: 2rem;
+    justify-items: center;
+    width: 100%;
+    height: 100%;
+}
 
+.box {
+    width: 75%;
+    border: 5px black solid;
+    border-radius: 10%;
+    padding: 0 1rem;
+    margin-bottom: 1rem;
+}
 
+.resumeMain h2 {
+    text-align: center;
+    color: blueviolet;
 
+    font-size: 2rem;
+}
+
+.resumeMain h1 {
+    color: blueviolet;
+}
+
+.resumeMain p {
+    font-size: 1.25rem;
+}
+
+.resumeMain address {
+    font-size: 1.25rem;
+    text-align: center;
+}
+
+.resumeMain li {
+    font-size: 1.25rem;
+}
+
+.resumeMain a {
+    font-size: 1.25rem;
+}
 
 /* Media  */
 
