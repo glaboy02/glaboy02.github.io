@@ -236,6 +236,7 @@ section#hero-section p {
     border-radius: 10%;
     padding: 0.5rem 1.5rem;
     margin-bottom: 1rem;
+    list-style-type: none;
 }
 
 .exercisesMain h1 {
