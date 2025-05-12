@@ -282,6 +282,10 @@ section#hero-section p {
     bottom: 3.75rem;
 }
 
+.portItems:hover {
+    opacity: 0.5;
+}
+
 
 /* Resume */
 
