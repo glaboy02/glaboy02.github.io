@@ -23,7 +23,20 @@ footer{
     background-color: rgba(0, 0, 0, 0.854);
     color: white;
     text-align: center;
+    padding: 1rem;
 }
+
+i {
+    font-size: 2rem;
+    color: blueviolet;
+    text-align: center;
+    padding: 1rem 2rem;
+    /* margin: 1rem; */
+}
+footer a {
+    text-decoration: none;
+}
+
 
 /* Nav Bar */
 
