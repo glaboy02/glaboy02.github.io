@@ -419,6 +419,14 @@ section#hero-section p {
     border-radius: 10%;
     padding: 0 1rem;
     margin-bottom: 1rem;
+    margin-top: 1rem;
+    background-color: white;
+}
+
+.box h1 {
+    text-align: center;
+    color: blueviolet;
+    font-size: 2rem;
 }
 
 .resumeMain h2 {
