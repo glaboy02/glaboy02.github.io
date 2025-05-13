@@ -5,8 +5,6 @@ body {
     min-height: 100vh;
     display: grid;
     grid-template-rows: min-content 1fr min-content;
-    /* display: flex;
-    flex-wrap: wrap; */
     background-color: rgb(198, 196, 196);
 
 }
@@ -31,12 +29,10 @@ i {
     color: blueviolet;
     text-align: center;
     padding: 1rem 2rem;
-    /* margin: 1rem; */
 }
 footer a {
     text-decoration: none;
 }
-
 
 /* Nav Bar */
 
@@ -85,8 +81,6 @@ figcaption {
     background-color: lightgray;
     padding: 5px;
     position: absolute;
-    /* bottom: 4px; */
-
     right: 13%;
     font-size: 12px;
     width: 70%;
@@ -171,9 +165,6 @@ section#hero-section p {
     transition: .5s ease;
     backface-visibility: hidden;
     border: 5px purple solid;
-    
-    /* min-height: 600px;
-    min-width: 600px; */
 }
 
 .homeImg figcaption {
@@ -189,7 +180,6 @@ section#hero-section p {
     background-color: white;
     color: black;
     font-size: 16px;
-    /* padding-right: 4.5rem; */
 }
 
 .homeImg:hover .Headshot {
@@ -481,11 +471,6 @@ section#hero-section p {
         align-items: center;
     }
 
-
-    /* .home {
-        height: 100vh;
-    } */
-    
     .col1 h1{
         font-size: 50px;
     }
